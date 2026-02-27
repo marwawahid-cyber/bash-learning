@@ -25,3 +25,25 @@ Hi, I am currently learning Bash scripting and Linux administration.
 ---
 
 More updates coming soon.
+    <........>
+
+
+## 📅 Day 2 - Variables & User Input
+
+###  Topics Covered:
+- What is scripting?
+- Types of scripting languages (Perl, Python, Ruby, Bash)
+- Viewing available shells:
+  - `cat /etc/shells`
+- Variables in Bash:
+  - `abd=10`
+  - `echo $abd`
+- Command substitution:
+  - `a=$(ls)`
+- Taking user input:
+  - `read`
+  - `read -p`
+- Special variable:
+  - `$REPLY`
+
+---
