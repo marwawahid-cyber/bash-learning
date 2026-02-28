@@ -68,3 +68,25 @@ More updates coming soon.
 ![Script Output](screenshots/day3-script.png ,/day3-debug.png,/day3-task.png)
 
 ---
+---
+
+## 📅 Day 4 - Filters & Sequence Commands
+
+###  Topics Covered:
+- File editors (vi, vim,)
+- `touch` command
+- `cat` command
+- `tr` filter (replace characters)
+- `xargs` filter (group input lines)
+- Pipe operator `|`
+- `bc` for calculations
+- `seq` command:
+  - Reverse sequence
+  - Leading zeros (-w)
+  - Custom separator (-s)
+
+### 📸 Output Screenshots
+
+![Day 4 Output](screenshots/day4-1 to 4-5.png)
+
+---
