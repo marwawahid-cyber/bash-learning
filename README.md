@@ -47,3 +47,24 @@ More updates coming soon.
   - `$REPLY`
 
 ---
+---
+
+## 📅 Day 3 - Debugging & Directory Handling
+
+###  Topics Covered:
+- Steps to write Bash script
+- Shebang (`#!/bin/bash`)
+- Changing shell using `chsh`
+- Debugging mode:
+  - `set -x`
+  - `set +x`
+- Getting current directory:
+  - `pwd`
+- Changing directory using:
+  - `cd`
+- Command substitution inside echo
+
+### 📸 Output Screenshots
+![Script Output](screenshots/day3-script.png ,/day3-debug.png,/day3-task.png)
+
+---
