@@ -1,0 +1,95 @@
+#!/bin/bash
+
+# ============================================
+# Conditional statments
+# Topics:
+# - Exit Status ($?)
+# - Numeric & String Comparisons
+# - if / elif / else
+# - Logical AND (&&)
+# - Service Installation Check
+# - Process Check using ps
+# ============================================
+
+echo "========== Exit Status Examples =========="
+
+[ "abc" == "abc" ]
+echo "String comparison exit status: $?"
+
+[ 25 -gt 10 ]
+echo "Numeric comparison exit status: $?"
+
+echo "==========================================="
+echo
+
+# -------- Number Check --------
+echo -n "Enter a number: "
+read NUM
+
+if [[ $NUM -gt 5 ]]
+then
+    echo "The number is greater than 5"
+else
+    echo "The number is less than or equal to 5"
+fi
+
+echo
+echo "==========================================="
+echo
+
+# -------- Largest Number --------
+echo -n "Enter value of a: "
+read a
+echo -n "Enter value of b: "
+read b
+echo -n "Enter value of c: "
+read c
+
+if [[ $a -ge $b ]] && [[ $a -ge $c ]]
+then
+    echo "a is BIG because value is $a"
+elif [[ $b -ge $a ]] && [[ $b -ge $c ]]
+then
+    echo "b is BIG because value is $b"
+else
+    echo "c is BIG because value is $c"
+fi
+
+echo
+echo "==========================================="
+echo
+
+# -------- Service Installation Check --------
+echo -n "Enter the service you want to check: "
+read service_name
+
+which $service_name > /dev/null 2>&1
+status=$?
+
+if [[ $status -eq 0 ]]
+then
+    echo "$service_name is installed on this machine"
+    echo "Version info:"
+    $service_name --version 2>/dev/null
+else
+    echo "$service_name is NOT installed"
+fi
+
+echo
+echo "==========================================="
+echo
+
+# -------- Process Check Example (Docker) --------
+process_count=$(ps -ef | grep docker | grep -v grep | wc -l)
+
+echo "Docker process count: $process_count"
+
+if [[ $process_count -gt 0 ]]
+then
+    echo "Docker service appears to be running"
+else
+    echo "Docker service is not running"
+fi
+
+echo
+echo "=========="
