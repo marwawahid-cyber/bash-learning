@@ -110,7 +110,7 @@ More updates coming soon.
 ---
 ---
 
-## 📅 Day 7 - Positional Parameters & Argument Validation
+## 📅 Day 6 - Positional Parameters & Argument Validation
 
 ###  Topics Covered:
 - $0 → Script name
@@ -124,9 +124,26 @@ More updates coming soon.
 
 ### 📸 Output Screenshot
 
-![Day 7 Output](screenshots/day6-ss1-4.png)
+![Day 6 Output](screenshots/day6-ss1-4.png)
 
 ---
+---
 
+## 📅 Day 7 - Loops/four-loop in Bash
+
+###  Topics Covered:
+- For loop (basic)
+- Range loop `{1..10}`
+- Step loop `{1..11..2}`
+- C-style for loop
+- Checking execution permission (-x)
+- Checking file (-f) and directory (-d)
+- Smart bulk file creation using brace expansion
+
+### 📸 Output Screenshot
+
+![Day 7 Output](screenshots/day7-ss1-3.png)
+
+---
 
 
