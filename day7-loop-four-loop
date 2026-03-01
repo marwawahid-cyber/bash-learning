@@ -1,0 +1,54 @@
+#!/bin/bash
+
+echo "========== For Loop Basic Example =========="
+
+for var in 1 2 3 4 5
+do
+    echo "Hello-$var"
+done
+
+echo
+echo "========== Range Example =========="
+
+for i in {1..11..2}
+do
+    echo "Welcome $i"
+done
+
+echo
+echo "========== C-Style For Loop =========="
+
+for ((var=1; var<=5; var++))
+do
+    echo "Number: $var"
+done
+
+echo
+echo "========== File Permission Check =========="
+
+for each in file1 file2 file3 file4 file5
+do
+    if [[ -x $each ]]
+    then
+        echo "$each has execution permission"
+    else
+        echo "$each does NOT have execution permission"
+    fi
+done
+
+echo
+echo "========== File or Directory Check =========="
+
+for each in *
+do
+    if [[ -f $each ]]
+    then
+        echo "$each is a FILE"
+    elif [[ -d $each ]]
+    then
+        echo "$each is a DIRECTORY"
+    fi
+done
+
+echo
+echo "========== Loop Module Completed =========="
