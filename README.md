@@ -90,3 +90,43 @@ More updates coming soon.
 ![Day 4 Output](screenshots/day4-1 to 4-5.png)
 
 ---
+
+---
+
+## 📅 Day 5 - Conditional Statements Module
+
+###  Topics Covered:
+- Exit status (`$?`)
+- String and numeric comparisons
+- if / elif / else
+- Logical AND (`&&`)
+- Checking if service is installed
+- Checking running processes using `ps`
+
+### 📸 Output Screenshot
+
+![day5](screenshots/day5-ss1-5.png)
+
+---
+---
+
+## 📅 Day 7 - Positional Parameters & Argument Validation
+
+###  Topics Covered:
+- $0 → Script name
+- $1 to $9 → Arguments
+- $# → Total argument count
+- $* and $@ → Display all arguments
+- $$ → Current shell PID
+- $? → Exit status
+- Argument validation using if condition
+- Basic service management script
+
+### 📸 Output Screenshot
+
+![Day 7 Output](screenshots/day6-ss1-4.png)
+
+---
+
+
+
