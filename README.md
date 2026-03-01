@@ -23,7 +23,8 @@ Hi, I am currently learning Bash scripting and Linux administration.
   - `chmod +x script.sh`
 
 ---
-
+### 📸 Output Screenshots
+(screenshots/day1-shell-output.png)
 More updates coming soon.
     <........>
 
@@ -45,6 +46,8 @@ More updates coming soon.
   - `read -p`
 - Special variable:
   - `$REPLY`
+### 📸 Output Screenshots
+(screenshots/day2-cmnd-substitution.png)
 
 ---
 ---
@@ -65,7 +68,7 @@ More updates coming soon.
 - Command substitution inside echo
 
 ### 📸 Output Screenshots
-![Script Output](screenshots/day3-script.png ,/day3-debug.png,/day3-task.png)
+(screenshots/day3-script.png ,/day3-debug.png,/day3-task.png)
 
 ---
 ---
@@ -87,7 +90,7 @@ More updates coming soon.
 
 ### 📸 Output Screenshots
 
-![Day 4 Output](screenshots/day4-1 to 4-5.png)
+(screenshots/day4-1.png)
 
 ---
 
@@ -105,7 +108,7 @@ More updates coming soon.
 
 ### 📸 Output Screenshot
 
-![day5](screenshots/day5-ss1-5.png)
+(screenshots/day5-ss1.png)
 
 ---
 ---
@@ -124,7 +127,7 @@ More updates coming soon.
 
 ### 📸 Output Screenshot
 
-![Day 6 Output](screenshots/day6-ss1-4.png)
+(screenshots/day6-ss1.png)
 
 ---
 ---
@@ -142,7 +145,7 @@ More updates coming soon.
 
 ### 📸 Output Screenshot
 
-![Day 7 Output](screenshots/day7-ss1-3.png)
+(screenshots/day7-ss1.png)
 
 ---
 
