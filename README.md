@@ -149,4 +149,17 @@ More updates coming soon.
 
 ---
 
+# Bash While Loop Practice
 
+In this project I practiced:
+
+- While loop
+- Infinite loop
+- Increment & decrement
+- Reading files
+- Using IFS for CSV parsing
+
+## How to Run
+
+chmod +x filename.sh
+./filename.sh
