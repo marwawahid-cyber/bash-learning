@@ -1,0 +1,106 @@
+#!/bin/bash
+
+echo "=============================="
+echo "Lecture 8- While Loop"
+echo "=============================="
+echo ""
+
+#########################################
+# 1️⃣ Infinite Loop (Runs 5 times only for demo)
+#########################################
+
+echo "1) Infinite Loop Example (Limited to 5 runs)"
+count=1
+while true
+do
+  echo "Alnafi"
+  echo "********"
+  ((count++))
+
+  if [[ $count -gt 5 ]]
+  then
+    break
+  fi
+done
+
+echo ""
+echo "----------------------------------"
+echo ""
+
+#########################################
+# 2️⃣ Increment Loop (1 to 10)
+#########################################
+
+echo "2) Increment Loop (1 to 10)"
+start=1
+while [[ $start -le 10 ]]
+do
+  echo "Alnafi : $start"
+  ((start++))
+done
+
+echo ""
+echo "----------------------------------"
+echo ""
+
+#########################################
+# 3️⃣ Decrement Loop (10 to 1)
+#########################################
+
+echo "3) Decrement Loop (10 to 1)"
+start=10
+while [[ $start -ge 1 ]]
+do
+  echo "Alnafi : $start"
+  ((start--))
+done
+
+echo ""
+echo "----------------------------------"
+echo ""
+
+#########################################
+# 4️⃣ Reading File Line By Line
+#########################################
+
+echo "4) Reading four File"
+
+# Create file if not exists
+cat <<EOF > four
+1,Abdeali
+2,Kazim
+3,Ali
+EOF
+
+while read each_line
+do
+  echo "$each_line"
+done < four
+
+echo ""
+echo "----------------------------------"
+echo ""
+
+#########################################
+# 5️⃣ Reading CSV using IFS
+#########################################
+
+echo "5) Reading server.csv and Printing IP Addresses"
+
+# Create CSV file
+cat <<EOF > server.csv
+1,Ansible,192.168.1.8
+2,Node1,192.168.1.9
+3,Node2,192.168.1.10
+4,Node3,192.168.1.11
+EOF
+
+while IFS="," read var1 var2 var3
+do
+  echo "Server IP: $var3"
+done < server.csv
+
+echo ""
+echo "=============================="
+echo "End of Lecture 8 Practice"
+echo "=============================="
