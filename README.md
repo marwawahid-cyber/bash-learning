@@ -148,8 +148,9 @@ More updates coming soon.
 (screenshots/day7-ss1.png)
 
 ---
+## 📅 Day 8 - Loops/while-loop in Bash
 
-# Bash While Loop Practice
+###  Topics Covered:
 
 In this project I practiced:
 
@@ -163,3 +164,8 @@ In this project I practiced:
 
 chmod +x filename.sh
 ./filename.sh
+
+### 📸 Output Screenshot
+
+(screenshots/day8-ss1.png)
+
